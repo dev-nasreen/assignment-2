@@ -62,14 +62,13 @@ section{
     border: 10px solid #fff;
     box-sizing: border-box;
     border-radius: 20px;
-    height: 350px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.card-img-bg img{
-    width: 100%;
-}
+
+
 .card-bottom{
     display: flex;
     justify-content: space-between;
@@ -92,6 +91,7 @@ section{
 .service-pic img{
     width: 100%;
 }
+
 .cart-btn{
     text-decoration: none;
     padding: 20px 40px;
@@ -155,7 +155,6 @@ section{
 @media (max-width: 768px){
     .banner-details p{
         font-size: 14px;
-        padding-right: 0!important;
     }
     .card-title {
         font-size: 1.2rem;
@@ -175,16 +174,22 @@ section{
     .cart-btn{
         font-size: 16px;
     }
+    .service-details h5{
+        font-weight: 14px;
+    }
+    .service-details p{
+        font-weight: 12px;
+    }
     .single-footer{
         margin-bottom: 20px;
     }
 }
 @media (max-width: 575.98px) {
     .banner-area{
-        margin: 0;
+        margin-top: 50px;
     }
     .banner-img {
-        margin-top: 0;
+        margin-top: 10px;
     }
     .casuale-shoe-area h1, .formal-shoe-area h1{
         text-align: center;
@@ -207,5 +212,8 @@ section{
     }
     .service-details h5{
         margin: 20px auto;
+    }
+    .single-footer{
+        text-align: center;
     }
  }
